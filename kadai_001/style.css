@@ -1,0 +1,49 @@
+@charset “utf-8″;
+
+body {
+	font-size: 6em;
+	text-align: center;
+	margin: 0;
+}
+
+.count {
+	margin: 0;
+	font-weight: bold;
+	color: #888;
+}
+
+.wrap {
+	margin-top: 20px;
+	padding: 80px 40px;
+	background-color: #666;
+	font-weight: bold;
+	color: #fff;
+}
+
+.typed {
+	color: lightgreen;
+}
+.mistyped {
+	background-color: red;
+}
+
+.start {
+	width: 150px;
+	height: 50px;
+	font-size: 0.2em;
+	color: #555;
+	cursor: pointer;
+}
+.pre-score-area {
+	font-weight: bold;
+	color: #888;
+	margin-top: 60px;
+	display: none;
+}
+.pre-score-area > span {
+	font-size: 0.2em;
+	display: block;
+}
+.pre-score-area > p {
+	margin-top: 10px;
+}
